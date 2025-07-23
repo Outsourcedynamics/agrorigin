@@ -1,0 +1,40 @@
+agrorgin/
+├── frontend/
+│   ├── pages/
+│   │   ├── index.js
+│   │   ├── products.js
+│   │   ├── about.js
+│   │   ├── contact.js
+│   │   ├── cart.js
+│   │   ├── admin.js
+│   ├── components/
+│   │   ├── Navbar.js
+│   │   ├── ProductCard.js
+│   │   ├── CartItem.js
+│   ├── public/
+│   │   ├── banner.jpg
+│   ├── styles/
+│   │   ├── globals.css
+├── backend/
+│   ├── src/
+│   │   ├── models/
+│   │   │   ├── Product.js
+│   │   │   ├── Order.js
+│   │   │   ├── Customer.js
+│   │   ├── routes/
+│   │   │   ├── product.js
+│   │   │   ├── order.js
+│   │   │   ├── customer.js
+│   │   │   ├── admin.js
+│   │   ├── controllers/
+│   │   │   ├── productController.js
+│   │   │   ├── orderController.js
+│   │   │   ├── customerController.js
+│   │   ├── middleware/
+│   │   │   ├── auth.js
+│   │   │   ├── errorHandler.js
+│   │   ├── app.js
+│   ├── .env
+├── DESIGN_MOCKUP.md
+├── README.md
+├── package.json
